@@ -1,0 +1,47 @@
+body{
+  background: powderblue;
+}
+
+.formContainer{
+  position: absolute;
+  right: 40%;
+  top: 10%;
+}
+
+.addTask, .completeTask{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  border: none;
+  background: rgb(223, 110, 223);
+  color: white;
+}
+
+input{
+  background: none;
+  border: none;
+  border-bottom: 2px solid darkblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.todoList{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 20%;
+  display: flex;
+}
+
+.taskCard{
+  background: darkorchid;
+  margin: 10px;
+  padding: 6px;
+  font-size: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.completeTask{
+  background: rgb(60, 170, 60);
+}
